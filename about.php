@@ -63,36 +63,60 @@
       </a>
     </div>
 
-    <div class="text-container md-container container">
+    <div class="md-container container">
       <div class="text-center">
         <h2 class="text-muted">[Follower]</h2>
-        <p>First and foremost, I am a believer in God, Christ Jesus, and the Gospel</p>
+        <p class="text-container">Every day is an opportunity given by God
+        to know him better and love Him more. </p>
       </div>
-      <div class="text-center">
-        <h2 class="text-muted">[Brother]</h2>
-        <p>I am a brother, to my sister back at home and to my brothers and sisters in Christ.</p>
-      </div>
+      <br>
       <div class="text-center">
         <h2 class="text-muted">[Student]</h2>
-        <p>I am a student.</p>
+        <p class="text-container">I am a student at Washington University in St. Louis,
+        studying Computer Science and Sociology, with a possible minor in Music. I don't know
+        where my current interests will lead me but my hope is that I will be able to serve others
+        and be in meaningful relationships with the unreached.</p>
+
+        <p class="text-container">This semester, I am learning about social theorists, music theory,
+        data structures and algorithms, dynamic web development, calculus-based statistics, and C++.</p>
       </div>
+
+      <!--
       <div class="text-center">
         <h2 class="text-muted">[Rock Churner]</h2>
-        <p>
+        <p>I really do think too much. The term "rock churner" is not my own (shoutout
+        to Rebecca). The basic premise is this: when something I think about
+        isn't processed fully or doesn't makes sense the first time around,
+        it goes back in the "rock churner", unconditionally. This has two
+        visible effects: one, that I revise my words quite freqently in normal
+        conversations. </p>
       </div>
+      -->
+      <br>
       <div class="text-center">
         <h2 class="text-muted">[Musician]</h2>
+        <p class="text-container">For me, music is something I am never too tired to engage
+        with. I am currently in The Sensasians, WashU's asian interest a cappella group
+        (disclaimer: I am often tired at rehearsals). Right now, I am listening to "Only King Forever",
+        by Elevation Worship, a bunch of collegiate a capella groups, and some k-pop.</p>
       </div>
-      <div class="text-center">
-        <h2 class="text-muted">[Sinner]</h2>
-      </div>
+      <br>
       <div class="text-center">
         <h2 class="text-muted">[Sports Fanatic]</h2>
-        <p></p>
+        <p class="text-container">Sports are pretty remarkable to me, partially because of the talent and
+        and ability so many athletes possess in their respective sports and partially because of the
+        ever-changing definition of what it means to have a platform as an athlete. While I follow football
+        the closest (the Patriots), I also follow professional track and field, basketball, baseball, e-sports, and
+        chess (it's a sport). I occasionally spend a bit too much time looking at statistics and sports history.</p>
       </div>
+
+      <!--
       <div class="text-center">
         <h2 class="text-muted">[Pun Appreciator]</h2>
-        <p></p>
+        <p>As you can see by the heading on this page, I have an appreciation for puns.
+        Especially bad ones that I come up with on the spot.</p>
+      </div>
+      -->
     </div>
 
 

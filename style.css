@@ -6,7 +6,7 @@
 .text-container {
   text-align: justify;
   text-align-last: center;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .pro-pic {
@@ -33,7 +33,6 @@
 }
 
 .pro-pic-fade {
-  transition:
   transition-timing-function: ease;
 }
 
