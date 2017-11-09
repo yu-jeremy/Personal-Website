@@ -1,7 +1,11 @@
 # Personal-Website
 
-This is the GitHub repository for my personal website, its creation is in progress.
+This is the GitHub repository for my personal website, its creation is in progress. 
 
 # Accessibility
 
-You can access the website [here](http://ec2-13-58-14-39.us-east-2.compute.amazonaws.com/~Yuser/Website/)
+My website can be accessed at [jeremyu.me] or [http://jeremyu.me]. 
+
+# Design
+
+This website is being built using Bootstrap's HTML/CSS/JS framework. Use of Bootstrap's cards, carousels, and buttons are especially evident. Additionally, Bootstrap's clean and minimalistic aesthetic allows me to tell my story the way I want to. Other important design notes: I make use of GlyphIcons (by manually including the SVG files in my repo after downloading from the original creator's website, which can be found [here]http://glyphicons.com/). 
