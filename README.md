@@ -15,8 +15,8 @@ This website is being built using Bootstrap's HTML/CSS/JS framework. Use of Boot
 This website is being hosted through Amazon's AWS services, specifically as a static website through Amazon S3. According to the Amazon Simple Storage Service Developer Guide, which can be found [here](https://aws.amazon.com/documentation/s3/)...
 
 > Amazon Simple Storage Service is storage for the Internet. It is designed to make web-scale computing easier for developers.
-> Amazon S3 has a simple web services interface that you can use to store and retrieve any amount of data, at any time, from  > anywhere on the web. It gives any developer access to the same highly scalable, reliable, fast, inexpensive data storage
-> infrastructure that Amazon uses to run its own global network of web sites. The service aims to maximize benefits of scale  > and to pass those benefits on to developers.
+Amazon S3 has a simple web services interface that you can use to store and retrieve any amount of data, at any time, from  anywhere on the web. It gives any developer access to the same highly scalable, reliable, fast, inexpensive data storage
+infrastructure that Amazon uses to run its own global network of web sites. The service aims to maximize benefits of scale and to pass those benefits on to developers.
 
 > This guide explains the core concepts of Amazon S3, such as buckets and objects, and how to work with these resources using > the Amazon S3 application programming interface (API).
 
