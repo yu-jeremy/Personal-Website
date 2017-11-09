@@ -4,7 +4,7 @@ This is the GitHub repository for my personal website, its creation is in progre
 
 ### Accessibility
 
-My website can be accessed at [jeremyu.me](jeremyu.me) or at http://jeremyu.me. 
+My website can be accessed at [here](jeremyu.me) or at by redirect at http://jeremyu.me. 
 
 ### Design
 
