@@ -1,44 +1,36 @@
 $(function() {
-  $("#story_one").hide();
-  $("#story_two").hide();
-  $("#story_three").hide();
+  $(".story").hide();
+  styleQuotations();
+  styleStories();
 });
 
-$("#toggle_one").click(function() {
-  if ($("#story_one").css("display") == "none") {
-    $("#story_one").css("display", "inline-block");
-    $("#subtitle_one").css("padding-bottom", "5px");
-    $("#toggle_one").html("<img src=glyphicons_free/glyphicons/png/glyphicons-434-minus.png alt=Minus sign>");
-  } else if ($("#story_one").css("display") == "inline-block") {
-    $("#story_one").css("display", "none");
-    $("#subtitle_one").css("padding-bottom", "0px");
-    $("#toggle_one").html("<img src=glyphicons_free/glyphicons/png/glyphicons-433-plus.png alt=Plus sign>");
+$(".text-container button").click(function() {
+  var thisStory = $(this).siblings(".story");
+  var subtitle = $(this).siblings(".subtitle");
+  if (thisStory.css("display") == "none") {
+    thisStory.css("display", "inline-block");
+    subtitle.css("padding-bottom", "5px");
+    $(this).html("<img src=glyphicons_free/glyphicons/png/glyphicons-434-minus.png alt=Minus sign>");
+  } else if (thisStory.css("display") == "inline-block") {
+    thisStory.css("display", "none");
+    subtitle.css("padding_bottom", "0px");
+    $(this).html("<img src=glyphicons_free/glyphicons/png/glyphicons-433-plus.png alt=Plus sign>");
   }
 });
 
-$("#toggle_two").click(function() {
-  if ($("#story_two").css("display") == "none") {
-    $("#story_two").css("display", "inline-block");
-    $("#subtitle_two").css("padding-bottom", "5px");
-    $("#toggle_two").html("<img src=glyphicons_free/glyphicons/png/glyphicons-434-minus.png alt=Minus sign>");
-  } else if ($("#story_two").css("display") == "inline-block") {
-    $("#story_two").css("display", "none");
-    $("#subtitle_two").css("padding-bottom", "0px");
-    $("#toggle_two").html("<img src=glyphicons_free/glyphicons/png/glyphicons-433-plus.png alt=Plus sign>");
-  }
-});
+// give quotations some CSS
+function styleQuotations() {
+  $(".quotation").css("max-width", "60%");
+}
 
-$("#toggle_three").click(function() {
-  if ($("#story_three").css("display") == "none") {
-    $("#story_three").css("display", "inline-block");
-    $("#subtitle_three").css("padding-bottom", "5px");
-    $(".#toggle_three").html("<img src=glyphicons_free/glyphicons/png/glyphicons-434-minus.png alt=Minus sign>");
-  } else if ($("#story_three").css("display") == "inline-block") {
-    $("#story_three").css("display", "none");
-    $("#subtitle_three").css("padding-bottom", "0px");
-    $("#toggle_three").html("<img src=glyphicons_free/glyphicons/png/glyphicons-433-plus.png alt=Plus sign>");
-  }
-});
+// give stories some css
+function styleStories() {
+  $(".pre-scrollable").css("width", "800px");
+}
+
+
+
+
 
 
 
