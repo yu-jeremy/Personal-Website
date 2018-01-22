@@ -1,3 +1,12 @@
+html {
+  position: relative;
+  height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
 .title {
   font-size: 75px;
   padding-top: 100px;
@@ -34,6 +43,14 @@
   width: 450px;
 }
 
+.lg-container {
+  width: 800px;
+}
+
+.footer_text {
+  padding-left: 20px;
+}
+
 .pro-pic-fade {
   transition-timing-function: ease;
 }
@@ -61,6 +78,25 @@
   border-radius: 50px;
 }
 
-.story_button {
+.content_button {
   float: right;
 }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.info_link {
+    transition: transform 1s;
+}
+
+.info_link:hover {
+    transform: scale(1.2,1.2);
+    
+}
+
