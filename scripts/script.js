@@ -19,6 +19,14 @@ $(".text-container button").click(function() {
   }
 });
 
+$("#open-4110-paper").click(function() {
+  if ($("#soc-4110-paper").css("display") == "none") {
+    $("#soc-4110-paper").show();
+  } else {
+    $("#soc-4110-paper").hide();
+  }
+});
+
 // give quotations some CSS
 function styleQuotations() {
   $(".quotation").css("max-width", "60%");
@@ -44,12 +52,3 @@ function changePhoto() {
 }
 
 document.getElementById("profile").addEventListener("click", changePhoto);
-
-
-
-
-
-
-
-
-
