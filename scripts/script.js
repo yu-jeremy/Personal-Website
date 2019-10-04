@@ -46,7 +46,7 @@ function changePhoto() {
     photoCount++;
   }
   else {
-    photo.src = "assets/profile.jpg";
+    photo.src = "assets/fall-con-jeremy.jpg";
     photoCount++;
   }
 }
